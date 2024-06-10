@@ -1,0 +1,53 @@
+/* Header.css */
+
+.header {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .header{
+    display: flex;
+  justify-content: space-between;
+  }
+  nav{
+    text-decoration: none;
+    gap: 10px;
+    background: orange;
+    width: 14%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 46px;
+    border-radius: 12px;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    background-color:#000;
+    align-items: center;
+  }

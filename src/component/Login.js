@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React  from "react";
-import "./SingIn.css";
+import "./SignIn.css";
 
 const Login = () => {
 
@@ -12,7 +12,7 @@ const Login = () => {
     <div className="main">
       
       <form className="box" >
-      <h1>SingIn</h1>
+      <h1>Log In</h1>
         <div className="text-label" >
           <label>Email</label>
           <input placeholder="Email" type="email" 

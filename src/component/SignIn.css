@@ -1,0 +1,76 @@
+/* SignIn.css */
+
+body.light-mode .main {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  body.dark-mode .main {
+    background-color: #333;
+    color: #f5f5f5;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  body.dark-mode .box {
+    background: #444;
+  }
+  
+  .box h1 {
+    margin-bottom: 20px;
+  }
+  
+  .text-label {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .text-label label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .text-label input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  body.dark-mode .text-label input {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #666;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  body.dark-mode button {
+    background-color: #0056b3;
+  }
+  

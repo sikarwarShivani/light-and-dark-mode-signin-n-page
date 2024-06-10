@@ -1,20 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import SingIn from './component/SingIn';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './component/Header';
+import SignIn from './component/SignIn';
 import Login from './component/Login';
+import './App.css'; // Import your CSS file
 
-function App() {
+const App = () => {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Header/>}/>
-      <Route path='/login' element={<Login/>}/>
-    <Route path='/singin' element={<SingIn/>}/>
-    </Routes>
-    </BrowserRouter>
-  )
-}
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;
